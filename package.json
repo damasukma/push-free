@@ -1,0 +1,22 @@
+{
+  "name": "push-free",
+  "version": "1.0.0",
+  "description": "Push Notif With Nodejs And RethinkDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damasukma/push-free.git"
+  },
+  "keywords": [
+    "push-free"
+  ],
+  "author": "damasukmakd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damasukma/push-free/issues"
+  },
+  "homepage": "https://github.com/damasukma/push-free#readme"
+}
