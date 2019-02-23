@@ -14,13 +14,18 @@ const db = new Database()
         }
         else
         {
-            console.log('Connected')
+            console.log('Connected...')
             db.createDatabase(conn, config.rethinkdb.db).then(() => {
-                return Promise.all([db.createTable(conn, 'author'), db.createTable(conn, 'notif')])
+                return Promise.all([db.createTable(conn, 'author'), db.createTable(conn, 'notif'), db.createTable(conn, 'config_configure')])
             }).catch((err) => {
                 console.log(`Error creating database and/or table: ${err}`);
             })
+
+
         }
         
     })
+
+
+
     

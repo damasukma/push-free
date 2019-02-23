@@ -4,7 +4,6 @@ const connection = {
     authKey: "",
     db: "PushNotif"
 }
-
 module.exports = {
     rethinkdb: connection
 }
